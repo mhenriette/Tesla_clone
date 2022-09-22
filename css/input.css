@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.section {
+    background-image: url('/img/back.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section2 {
+    background-image: url('/img/Desktop-ModelY.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section3 {
+    background-image: url('/img/Homepage-Model-S-Desktop-LHD.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section4 {
+    background-image: url('/img/Homepage-Model-X-Desktop-LHD.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section5 {
+    background-image: url('/img/_25-HP-SolarPanels-D.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section6 {
+    background-image: url('/img/Homepage-SolarRoof-Desktop-Global.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section7 {
+    background-image: url('/img/dd739764-bcaa-4263-9488-8c73bc9fb046.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@layer base {
+    @font-face {
+        font-family: "Gotham Book";
+        src: url('../public/GothamBook.ttf');
+    }
+}
+
+* {
+    font-family: font-gotham;
+}
+
+
+/* .section-hover:hover {
+    background-color: rgba(109, 106, 112, 0.315);
+} */
